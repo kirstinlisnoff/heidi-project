@@ -26,6 +26,6 @@ export type Voicemail = {
     workflow: {
         status: WorflowStatus;
         assignedTo?: string;
-        suggestedNecxtAction: string;
+        suggestedNextAction: string;
     };
 };
