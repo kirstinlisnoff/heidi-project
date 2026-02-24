@@ -8,7 +8,7 @@ export const mockVoicemails: Voicemail[] = [
         timestamp: "2024-06-01T10:15:00Z",
         transcription: "Hello, this is Alex Johnson, I am having bad chest pains and shortness of breath, I need to see the doctor as soon as possible. Please call me back. Thank you.",
         extracted: {
-            intent: "urgent",
+            intent: "urgent_symptoms",
             urgency: "high",
             summary: "Severe chest pain and shortness of breath",
             keyDetails: {

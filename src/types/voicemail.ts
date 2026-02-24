@@ -2,7 +2,7 @@ export type Intent =
     | 'appointment'
     | 'prescription_refill'
     | 'billing'
-    | 'urgent'
+    | 'urgent_symptoms'
     | 'other';
 
 export type Urgency = 'low' | 'medium' | 'high';
